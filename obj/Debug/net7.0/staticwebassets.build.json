@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "qZBU6l2tm6FJkyWKz/PK8cY6ENL95ZjIntuUHw5BFM8=",
+  "Source": "Forum",
+  "BasePath": "_content/Forum",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Forum/wwwroot",
+      "Source": "Forum",
+      "ContentRoot": "/Users/nihal/Code/Forum/wwwroot/",
+      "BasePath": "_content/Forum",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
