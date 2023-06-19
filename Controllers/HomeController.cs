@@ -4,10 +4,8 @@ namespace Forum.Controllers {
 
     public class HomeController : Controller {
 
-        private readonly IPostService _postService;
+        public HomeController() {
 
-        public HomeController(IPostService postService) {
-            _postService = postService;
         }
 
          public IActionResult Index() {

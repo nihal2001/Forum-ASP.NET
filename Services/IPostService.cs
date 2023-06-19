@@ -1,5 +1,14 @@
-public interface IPostService
-{
-    IEnumerable<Post> GetRecentPosts(int count);
-    // You can add other methods as needed
+using Forum.Models; 
+
+namespace Forum.Services {
+    public interface IPostService
+    {
+        
+        void Post(Post post);
+
+        IEnumerable<Post> GetRecentPosts(int count);
+        
+        IEnumerable<Post> GetRecentPosts(int count, String name);
+
+    }
 }
