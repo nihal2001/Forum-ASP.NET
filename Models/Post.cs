@@ -1,16 +1,26 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Forum.Models {
     public class Post {
-        private String id { get; set; }    
-        private String title { get; set;}
-        private User user { get; set; }
-        private String content { get; set; }
-        private List<Comment> comments;
+        [Key]
+        public int Id { get; set; }    
+        public required string Title { get; set;}
+        //private User User { get; set; }
+        public required string Content { get; set; }
+        //private List<Comment> comments;
+
+        public DateTime DateCreated { get; set; }
+
+        public override string ToString() {
+            return "Id: " + Id + " | Title: " + Title + " | Content: " + Content;
+        }
 
     }
 
     public class Comment {
-        private String id;
-        private String content;
-        private String user;
+        private String Id { get; set; }
+        private String Content { get; set; }
+        private String User { get; set; }
     }
+    
 }

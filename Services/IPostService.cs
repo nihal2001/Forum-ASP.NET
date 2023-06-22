@@ -4,11 +4,14 @@ namespace Forum.Services {
     public interface IPostService
     {
         
-        void Post(Post post);
-
         IEnumerable<Post> GetRecentPosts(int count);
         
-        IEnumerable<Post> GetRecentPosts(int count, String name);
+        IEnumerable<Post> GetRecentPostsByName(int count, string name);
 
+        Post EditPost(Post post);
+
+        bool AddPost(Post post);
+
+        bool RemovePost(int id);
     }
 }
