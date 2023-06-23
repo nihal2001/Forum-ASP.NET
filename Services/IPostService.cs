@@ -6,7 +6,7 @@ namespace Forum.Services {
         
         IEnumerable<Post> GetRecentPosts(int count);
         
-        IEnumerable<Post> GetRecentPostsByName(int count, string name);
+        IEnumerable<Post> GetRecentPosts(int count, string name);
 
         Post EditPost(Post post);
 

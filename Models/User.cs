@@ -1,13 +1,8 @@
 namespace Forum.Models {
     public class User {
         
-        private int id;
-        private string name;
-        private string email;
-
-        public User () {
-            
-        }
+        public required int UserId { set; get; }
+        public required string Name { set; get; }
     }
 
 }

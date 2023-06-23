@@ -50,17 +50,12 @@ public bool RemovePost(int id)
 
         public IEnumerable<Post> GetRecentPosts(int count) 
         {
-            return null;
+             return context.Posts.OrderByDescending(post => post.DateCreated).Take(count).ToList();
         }
 
         public IEnumerable<Post> GetRecentPosts(int count, string name) 
         {
-            return null;
-        }
-
-        public IEnumerable<Post> GetRecentPostsByName(int count, string name)
-        {
-            throw new NotImplementedException();
+           return context.Posts.Where(post => post.PostUser.Name == name).OrderByDescending(post => post.DateCreated).Take(count).ToList();
         }
 
         public Post EditPost(Post post)
