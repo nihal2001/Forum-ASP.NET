@@ -15,3 +15,11 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /Users/nihal/Code/Forum
 build_property._RazorSourceGeneratorDebug = 
+
+[/Users/nihal/Code/Forum/Pages/App.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nihal/Code/Forum/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

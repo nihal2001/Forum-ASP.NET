@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qZBU6l2tm6FJkyWKz/PK8cY6ENL95ZjIntuUHw5BFM8=",
+  "Hash": "jSUSTlop5JTLy4AB9NrBb+n/HtofqbibsUIBY5Ak3F8=",
   "Source": "Forum",
   "BasePath": "_content/Forum",
   "Mode": "Default",
@@ -15,5 +15,23 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "/Users/nihal/Code/Forum/wwwroot/.DS_Store",
+      "SourceId": "Forum",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nihal/Code/Forum/wwwroot/",
+      "BasePath": "_content/Forum",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    }
+  ]
 }

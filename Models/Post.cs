@@ -5,13 +5,13 @@ namespace Forum.Models {
         [Key]
         public int Id { get; set; }    
         public required string Title { get; set;}
-        //private User User { get; set; }
         public required string Content { get; set; }
-        //private List<Comment> comments;
+        
+        public  required List<Comment> Comments { get; set; }
 
-        public User? PostUser { get; set; }
+        public required User PostUser { get; set; }
 
-        public DateTime DateCreated { get; set; }
+        public required DateTime DateCreated { get; set; }
 
         public override string ToString() {
             return "Id: " + Id + " | Title: " + Title + " | Content: " + Content;
@@ -19,12 +19,13 @@ namespace Forum.Models {
 
     }
 
-    /*
+    
     public class Comment {
-        private String Id { get; set; }
-        private String Content { get; set; }
-        private String User { get; set; }
+        [Key]
+        public required int Id { get; set; }
+        public required String Content { get; set; }
+        public required String User { get; set; }
     }
-    */
+    
     
 }

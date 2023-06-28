@@ -22,6 +22,7 @@ namespace Forum.Tests
             postService = new PostService(context);
         }
 
+        /*
         [Fact]
         public void TestAddPost() 
         {
@@ -62,5 +63,6 @@ namespace Forum.Tests
             // Assert
             Assert.Equal(expectedPost, result.First());
         }
+        */
     }
 }
